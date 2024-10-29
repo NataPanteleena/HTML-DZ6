@@ -1,0 +1,31 @@
+/*------header---------------*/
+
+.header {
+    background-color: var(--color-white);
+    border-bottom: 1px solid var(--color-btn-background-grey);
+    
+}
+.header-wrapper {
+    width: 1170px;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.header__block {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__link-enter {
+    width: 72px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.header__link-proposal{
+    width: 216px;
+    height: 40px;
+}
